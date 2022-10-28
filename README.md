@@ -35,7 +35,7 @@ export const perguntas = [
  `id`: Número da página da pergunta. \
  `pergunta`: Autoexplicativo. \
  `options`: Array com as opções de resposta para cada pergunta. \
- `resposta`: Resposta a checada como correta. 
+ `resposta`: Resposta correta. 
  
  Você pode colocar o número de perguntas que quiser, o aplicativo incrementa páginas automaticamente, \
  e claro, você também pode entregar esses dados usando um backend.
