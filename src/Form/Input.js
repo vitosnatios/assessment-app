@@ -4,10 +4,10 @@ import '../Styles/Link.css';
 const Input = ({ id, label, type, value, setState, index, ...props }) => {
   const handleChange = () => {
     if (!value[index]) {
-      setState([...value, label]);
+      setState([...value, id]);
     } else {
       const filtered = value.filter((v) => v !== value[index]);
-      setState([...filtered, label]);
+      setState([...filtered, id]);
     }
   };
 
@@ -17,11 +17,11 @@ const Input = ({ id, label, type, value, setState, index, ...props }) => {
         <input
           id={id}
           type={type}
-          checked={value[index] === label}
+          checked={value[index] === id}
           onChange={handleChange}
           {...props}
         />
-        <span>{' ' + label}</span>
+        <span>{' ' + id}</span>
       </label>
     </>
   );

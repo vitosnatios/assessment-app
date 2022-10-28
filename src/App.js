@@ -63,18 +63,16 @@ function App() {
       <form style={formStyle}>
         <Title style={{ fontSize: '2rem', margin: 0 }}>React.JS</Title>
         {perguntas.map(
-          ({ pergunta, options, resposta, id }, index) =>
+          ({ pergunta, options, id }, index) =>
             page === id && (
               <Fragment key={index}>
                 <Title>{index + 1 + '. ' + pergunta}</Title>
                 {options.map((option, index2) => (
                   <Input
                     key={index2}
-                    label={option}
                     id={option}
                     value={choice}
                     setState={setChoice}
-                    resposta={resposta}
                     index={index}
                     onClick={() => setError(null)}
                     type='radio'
