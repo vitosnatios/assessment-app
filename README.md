@@ -5,7 +5,7 @@
 ## Como coloco minhas perguntas, opções e respostas?
 
 Edite o arquivo chamado `perguntas.js`. \
-Nele, você pode adicionar e editar perguntas, opções e respostas no formato de objeto js. \
+Nele, você pode adicionar e editar perguntas, opções e respostas no formato de objeto js. 
 
 ```js
 export const perguntas = [
@@ -32,9 +32,10 @@ export const perguntas = [
 ];
 ```
 
-id: Número da página da pergunta. \
- pergunta: Autoexplicativo. \
- options: Array com as opções de resposta para cada pergunta. \
- resposta: Resposta a checada como correta. \
+ `id`: Número da página da pergunta. \
+ `pergunta`: Autoexplicativo. \
+ `options`: Array com as opções de resposta para cada pergunta. \
+ `resposta`: Resposta a checada como correta. 
+ 
  Você pode colocar o número de perguntas que quiser, o aplicativo incrementa páginas automaticamente, \
  e claro, você também pode entregar esses dados usando um backend.
