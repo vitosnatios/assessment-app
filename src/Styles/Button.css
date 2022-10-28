@@ -1,0 +1,8 @@
+button {
+  font-family: monospace;
+}
+button:hover {
+  cursor: pointer;
+  scale: 1.05;
+  border-color: #7d2ef9;
+}
