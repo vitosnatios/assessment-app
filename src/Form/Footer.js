@@ -19,7 +19,7 @@ const Footer = () => {
           text={'Linkedin'}
           href='https://www.linkedin.com/in/vitosnatios/'
         />
-        <Link text={'Github'} href='https://www.linkedin.com/in/vitosnatios/' />
+        <Link text={'Github'} href='https://github.com/vitosnatios' />
       </div>
     </footer>
   );
